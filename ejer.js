@@ -188,6 +188,9 @@ const ordenador ={
 
 // Crea un array en la variable llamada arr de tal modo que el siguiente código no muestre por consola 'suspendes'
  // TEST 1
+ const arr=[{name:"pepito",
+age:25},{name:"pepito",
+age:10},{name:"Jarlos",age:4}]
       if (typeof arr === "object" && arr.length >= 0) {
         console.log("apruebas");
       } else {
